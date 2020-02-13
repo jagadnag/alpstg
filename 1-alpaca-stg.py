@@ -6,8 +6,8 @@ import requests
 import json
 import schedule
 
-key_id='PK5XD8GNLWGZR54MF0EZ'
-secret_key='R7ti/gvk9mwSalLNUpHEyhTFYz0i5MSrpCSYsx7w'
+key_id='xxx'
+secret_key='xxxx'
 
 api = tradeapi.REST(
     key_id,
@@ -15,7 +15,7 @@ api = tradeapi.REST(
     'https://paper-api.alpaca.markets', api_version='v2'
 )
 
-webhook_url = 'https://hooks.slack.com/services/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'
+webhook_url = 'https://hooks.slack.com/services/TPRML5HL2/xxx'
 
 #stock_list = ['SPY','AAPL', 'MSFT', 'TTD', 'LULU', 'ROKU', 'TLT', 'GLD', 'IAU', 'QQQ', 'AMD', 'TSLA' 'XLK', 'XLF', 'XLY', 'XLI', 'XLB', 'XLC', 'XLRE', 'XLV', 'XLU', 'XLP']
 
